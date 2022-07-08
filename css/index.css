@@ -1,0 +1,53 @@
+@import "reset.css";
+
+body {
+    background-color: gray;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    position: fixed;
+    min-width: 100vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: large;
+    text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-sizing: border-box;
+}
+
+nav {
+    max-width: 1024px;
+    min-width: 1024px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-title {
+    color: white;
+    background-color: black;
+    font-size: x-large;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1024px;
+    min-width: 1024px;
+    background-color: gainsboro;
+    margin: 0 auto;
+    min-height: 200vh;
+    padding-top: 80px;
+}
