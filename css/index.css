@@ -1,11 +1,9 @@
-@import "reset.css";
-
-body {
-    background-color: gray;
+.home-body {
+    background: linear-gradient(to right bottom, rgb(110, 110, 247), white);
 }
 
 header {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     position: fixed;
     min-width: 100vw;
@@ -46,7 +44,7 @@ ul {
     align-items: flex-start;
     max-width: 1024px;
     min-width: 1024px;
-    background-color: gainsboro;
+    background-color: rgba(245, 245, 245, 0.932);
     margin: 0 auto;
     min-height: 200vh;
     padding-top: 80px;
